@@ -8,9 +8,9 @@
 </head>
 <body>
  <main>
-    <form id="form" action="imc.php"method="POST">
+   <div id="forma"> <form id="form" action="imc.php"method="POST">
         <h2 id="tittle">Indice de massa corporal</h2>
-        <h3>Digite seu nome: </h3>
+        <h3>Digite seu nome</h3>
         <input id="box" type="text" name="nome">
         <h3>Data de Nascimento</h3>
         <input id="date" type="date" name="nasc">
@@ -26,6 +26,7 @@
         <br></p>
         <input id="button" type="submit" value="Calcular">
     </form>
+    </div>
 
  </main>   
 </body>
