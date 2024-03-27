@@ -10,6 +10,10 @@
  <main>
     <form id="form" action="imc.php"method="POST">
         <h2 id="tittle">Indice de massa corporal</h2>
+        <h3>Digite seu nome: </h3>
+        <input id="box" type="text" name="nome">
+        <h3>Data de Nascimento</h3>
+        <input id="date" type="date" name="nasc">
         <h3>Selecione seu gênero</h3>
         <select name="genero" id="box">
             <option value="Masculino">Masculino</option>

@@ -11,6 +11,8 @@
     <main>
             <form id="form" action=""> <h2 id="tittle">Seu IMC</h2>
                 <?php 
+                    $nome = $_POST["nome"];
+                    $data = $_POST["nasc"];
                     $altura = $_POST["altura"];
                     $peso = $_POST["peso"];
                     $genero = $_POST["genero"];
@@ -19,8 +21,17 @@
         //echo $alturaform;
         //echo $peso;
         //echo $altura;
+                        list($ano, $mes, $dia) = explode('-', $data);
+                        $hoje = mktime(0, 0, 0, date('m'), date('d'), date('Y'));
+                        $nascimento = mktime( 0, 0, 0, $mes, $dia, $ano);
+                        $idade = floor((((($hoje - $nascimento) / 60) / 60) / 24) / 365.25);
+                        $imc = $pesoform / ($alturaform * 2);
+                        
 
-                    $imc = $pesoform / ($alturaform * 2);
+                        //Visualização
+                        echo $nome . "</br>" . $idade . " anos." . "</br>" . "Sexo: " . $genero . "</br>";
+
+                    
         //echo number_format($imc, 2, '.', '')
             
                         if  ($imc <= 16.9 && $genero == "Masculino") { 
