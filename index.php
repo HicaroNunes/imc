@@ -22,7 +22,7 @@
         <h3>Digite a altura</h2>
         <input id="box" type="number" name="altura" placeholder=" ex:1,80" step="0.01">
         <h3>Digite o peso</h2>
-        <input id="box" type="number" name="peso" placeholder=" ex:80">
+        <input id="box" type="number" name="peso" placeholder=" ex:80" step="0.1">
         <br></p>
         <input id="button" type="submit" value="Calcular">
     </form>

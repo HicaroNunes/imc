@@ -51,13 +51,13 @@ h3,h2{
 
 }
 #forma {
-    display:grid;
+    display: grid;
     background-color: gray;
     border-radius: 30px;
-    width:38%;
-    height: 650px;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 65%;
+    height: 690px;
+    margin-left: 18%;
+    margin-right: 18%;
 
 }
 h2 {
