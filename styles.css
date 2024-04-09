@@ -20,10 +20,9 @@ html {
 #button {
     display:grid;
     margin-inline-start: auto;
-    margin-right: 5%;   
+    margin-right: auto;   
     width: 90%;
-    height: 5%;
-    border-radius: 40px;
+    border-radius: 30px;
 
 }
 h3,h2{
@@ -54,14 +53,14 @@ h3,h2{
     display: grid;
     background-color: gray;
     border-radius: 30px;
-    width: 65%;
+    width: 50%;
     height: 690px;
-    margin-left: 18%;
-    margin-right: 18%;
-
+   margin: auto;
+   align-items: center;
 }
 h2 {
 align-items: center ;
+margin-inline-start: auto;
 
 
 }

@@ -12,6 +12,8 @@
         <div id="forma">
             <form id="form"> <h2 id="tittle">Seu IMC</h2>
                 <?php 
+
+                    //Variáveis
                     $nome = $_POST["nome"];
                     $data = $_POST["nasc"];
                     $altura = $_POST["altura"];
@@ -78,6 +80,7 @@
                         
                 ?>
             </form>
+            <button onclick="JavaScript:window.location.href='index.php'">Voltar</button>
         </div>
     </main>
 </body>
